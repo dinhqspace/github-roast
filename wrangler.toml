@@ -26,9 +26,9 @@ pages_build_output_dir = ".svelte-kit/cloudflare"
 # Bind a D1 database. D1 is Cloudflare’s native serverless SQL database.
 # Docs: https://developers.cloudflare.com/pages/functions/bindings/#d1-databases
 [[d1_databases]]
-binding = "DB"
-database_name = "githubroast"
-database_id = "e43f5850-f45d-4d01-a3fb-1c1f0b3da4bb"
+binding = "DATABASE"
+database_name = "scubidi-db"
+database_id = "acb82fbe-a536-4421-878e-968088daea53"
 
 # Bind a Durable Object. Durable objects are a scale-to-zero compute primitive based on the actor model.
 # Durable Objects can live for as long as needed. Use these when you need a long-running "server", such as in realtime apps.
